@@ -6,3 +6,6 @@ The main motivation of this tutorial is to allow begineers of Scala Spark to dow
 # How to start
 
 Navigate to the SparkTutorial folder and mvn package to build. Modify the POM file as you wish.
+
+Tutorial 1: First Steps 
+Tutorial 2: UDF,more transformation, and Explain
