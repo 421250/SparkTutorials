@@ -109,12 +109,18 @@
         </configuration>
       </plugin>
 
+
+
+
+
+
+
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
         <configuration>
           <archive>
             <manifest>
-              <mainClass>SparkTutorials.Tutorial1.Tutorial1Main</mainClass>
+              <mainClass>SparkTutorials.Tutorial2.Tutorial2Main</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>
@@ -131,6 +137,11 @@
           </execution>
         </executions>
       </plugin>
+
+
+
+
+
 
 
     </plugins>

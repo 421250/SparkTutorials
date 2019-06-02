@@ -25,8 +25,6 @@ object Tutorial1Main  {
     //Create Spark Session. Further options/configuration can be provided
     // via the command line during the launching of Spark jobs,
     // i.e. specifying number of executors and etc.
-
-    println("test")
     val spark: SparkSession = SparkSession.builder().master(setMaster).appName(applicationName).getOrCreate()
 
     /*
