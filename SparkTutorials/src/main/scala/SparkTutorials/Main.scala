@@ -1,6 +1,0 @@
-package SparkTutorials
-
-
-object Main  {
-
-}

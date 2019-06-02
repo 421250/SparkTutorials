@@ -5,8 +5,10 @@
   <version>1</version>
   <inceptionYear>2019</inceptionYear>
   <properties>
-    <scala.version>2.7.0</scala.version>
+    <scala.version>2.11.8</scala.version>
   </properties>
+
+
 
   <dependencies>
     <dependency>
@@ -27,7 +29,6 @@
       <scope>test</scope>
     </dependency>
 
-
     <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-sql_2.12</artifactId>
@@ -41,14 +42,55 @@
       <version>2.4.0</version>
     </dependency>
 
-
   </dependencies>
 
   <build>
     <sourceDirectory>src/main/scala</sourceDirectory>
     <testSourceDirectory>src/test/scala</testSourceDirectory>
     <plugins>
+      <plugin>
+        <groupId>org.scalastyle</groupId>
+        <artifactId>scalastyle-maven-plugin</artifactId>
+        <version>1.0.0</version>
+        <configuration>
+          <verbose>false</verbose>
+          <failOnViolation>true</failOnViolation>
+          <includeTestSourceDirectory>true</includeTestSourceDirectory>
+          <failOnWarning>false</failOnWarning>
+          <sourceDirectory>src/main/scala</sourceDirectory>
+          <testSourceDirectory>src/test/scala</testSourceDirectory>
+          <configLocation>lib/scalastyle_config.xml</configLocation>
+          <outputFile>scalastyle-output.xml</outputFile>
+          <outputEncoding>UTF-8</outputEncoding>
+        </configuration>
+        <executions>
+          <execution>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
 
+      <plugin>
+        <groupId>net.alchim31.maven</groupId>
+        <artifactId>scala-maven-plugin</artifactId>
+        <version>3.4.0</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>compile</goal>
+              <goal>testCompile</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <scalaVersion>${scala.version}</scalaVersion>
+          <args>
+            <arg>-target:jvm-1.8</arg>
+          </args>
+        </configuration>
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-eclipse-plugin</artifactId>
@@ -72,7 +114,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>sparkTutorial.Main</mainClass>
+              <mainClass>SparkTutorials.Tutorial1.Tutorial1Main</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>
