@@ -22,3 +22,8 @@ In this tutorial, we will learn the following:
   We will also cover how to transform one row to multiple rows after applying UDF.
 2. Further transformation operations: Casting datatypes / Filter Function / Map / flatMap
 3. Spark Optimization and Explain Plan
+
+#Tutorial 3: UDAF 
+ In this tutorial, we will learn the following:
+ 1. How to create UDAF,
+ 2. Walk through the abstract methods / classes that is utilized for UDAF
