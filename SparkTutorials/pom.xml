@@ -120,7 +120,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>SparkTutorials.Tutorial2.Tutorial2Main</mainClass>
+              <mainClass>SparkTutorials.Tutorial3.Tutorial3Main</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>

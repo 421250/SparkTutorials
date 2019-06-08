@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="5.0">
+ <file name="C:\Users\421250\SparkTutorials\SparkTutorials\src\main\scala\SparkTutorials\Tutorial3\Tutorial3Main.scala">
+  <error column="21" line="54" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+ </file>
+ <file name="C:\Users\421250\SparkTutorials\SparkTutorials\src\main\scala\SparkTutorials\Tutorial2\CustomUDF.scala">
+  <error column="4" line="17" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
+  <error column="4" line="29" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
+ </file>
+ <file name="C:\Users\421250\SparkTutorials\SparkTutorials\src\main\scala\SparkTutorials\Tutorial3\Mean.scala">
+  <error column="4" line="39" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
+  <error column="4" line="45" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
+  <error column="4" line="54" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
+  <error column="4" line="63" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
+  <error column="4" line="98" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+ </file>
+ <file name="C:\Users\421250\SparkTutorials\SparkTutorials\src\main\scala\SparkTutorials\Tutorial2\Tutorial2Main.scala">
+  <error line="98" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="99" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="106" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="113" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="125" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error line="166" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
+  <error column="132" line="87" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="135" line="139" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="99" line="169" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="13" line="82" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="113" line="99" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="25" line="137" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="52" line="161" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="6" line="28" source="org.scalastyle.scalariform.MethodLengthChecker" severity="warning" message="Method is longer than 50 lines"/>
+  <error column="0" line="4" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="0" line="5" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="4" line="165" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="18" line="43" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;DEST_COUNTRY_NAME&quot; appears 3 times in the file."/>
+  <error column="18" line="44" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;ORIGIN_COUNTRY_NAME&quot; appears 3 times in the file."/>
+  <error column="18" line="45" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;count&quot; appears 5 times in the file."/>
+  <error column="28" line="87" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;count is not null&quot; appears 4 times in the file."/>
+  <error column="4" line="165" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together"/>
+ </file>
  <file name="C:\Users\421250\SparkTutorials\SparkTutorials\src\main\scala\SparkTutorials\Tutorial1\Tutorial1Main.scala">
   <error column="26" line="61" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
   <error column="76" line="82" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
@@ -17,33 +58,5 @@
   <error column="6" line="23" source="org.scalastyle.scalariform.MethodLengthChecker" severity="warning" message="Method is longer than 50 lines"/>
   <error column="0" line="5" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
   <error column="18" line="37" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;DEST_COUNTRY_NAME&quot; appears 9 times in the file."/>
- </file>
- <file name="C:\Users\421250\SparkTutorials\SparkTutorials\src\main\scala\SparkTutorials\Tutorial2\CustomUDF.scala">
-  <error column="4" line="17" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
-  <error column="4" line="29" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
- </file>
- <file name="C:\Users\421250\SparkTutorials\SparkTutorials\src\main\scala\SparkTutorials\Tutorial2\Tutorial2Main.scala">
-  <error line="97" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
-  <error line="98" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
-  <error line="105" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
-  <error line="112" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
-  <error line="124" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
-  <error line="165" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 160 characters"/>
-  <error column="132" line="86" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
-  <error column="135" line="138" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
-  <error column="99" line="168" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
-  <error column="14" line="81" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
-  <error column="114" line="98" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
-  <error column="26" line="136" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
-  <error column="53" line="160" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
-  <error column="6" line="27" source="org.scalastyle.scalariform.MethodLengthChecker" severity="warning" message="Method is longer than 50 lines"/>
-  <error column="0" line="4" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
-  <error column="0" line="5" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
-  <error column="4" line="164" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
-  <error column="18" line="42" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;DEST_COUNTRY_NAME&quot; appears 3 times in the file."/>
-  <error column="18" line="43" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;ORIGIN_COUNTRY_NAME&quot; appears 3 times in the file."/>
-  <error column="18" line="44" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;count&quot; appears 5 times in the file."/>
-  <error column="28" line="86" source="org.scalastyle.scalariform.MultipleStringLiteralsChecker" severity="warning" message="The string literal &quot;count is not null&quot; appears 4 times in the file."/>
-  <error column="4" line="164" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together"/>
  </file>
 </checkstyle>

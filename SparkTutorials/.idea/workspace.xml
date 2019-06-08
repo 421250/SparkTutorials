@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e81012f-5402-47fb-b8e1-b5bc4134e670" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial2/CustomUDF.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial2/Tutorial2Main.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial3/Mean.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial3/Tutorial3Main.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scalastyle-output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scalastyle-output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial1/Tutorial1Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial1/Tutorial1Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial2/Tutorial2Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial2/Tutorial2Main.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="111" selection-start-line="111" selection-end-line="111" />
+            <state relative-caret-position="306">
+              <caret line="122" column="59" selection-start-line="122" selection-start-column="59" selection-end-line="122" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -31,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial1/Tutorial1Main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+            <state relative-caret-position="-1180">
+              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
               <folding>
                 <element signature="e#34#115#0" expanded="true" />
               </folding>
@@ -40,11 +40,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial2/Tutorial2Main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="161" column="7" lean-forward="true" selection-start-line="161" selection-start-column="7" selection-end-line="161" selection-end-column="7" />
+            <state relative-caret-position="442">
+              <caret line="101" column="75" selection-start-line="101" selection-start-column="69" selection-end-line="101" selection-end-column="75" />
+              <folding>
+                <element signature="e#34#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial3/Tutorial3Main.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
               <folding>
                 <element signature="e#34#93#0" expanded="true" />
               </folding>
@@ -53,10 +65,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial3/Mean.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="57" column="103" lean-forward="true" selection-start-line="57" selection-start-column="103" selection-end-line="57" selection-end-column="103" />
+              <folding>
+                <element signature="e#34#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.12/2.4.0/spark-sql_2.12-2.4.0.jar!/org/apache/spark/sql/expressions/UserDefinedAggregateFunction.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial2/CustomUDF.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+            <state relative-caret-position="238">
+              <caret line="14" column="6" selection-start-line="9" selection-start-column="1" selection-end-line="14" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -90,9 +123,13 @@
         <option value="$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial1/ReadFile.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial2/Tutorial1Main.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial1/Tutorial1Main.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial2/CustomUDF.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial2/Tutorial2Main.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial3/CustomUDF.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial3/Summation.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial3/Mean.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial3/Tutorial3Main.scala" />
       </list>
     </option>
   </component>
@@ -176,6 +213,15 @@
               <item name="SparkTutorials" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="SparkTutorials" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="scala" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="SparkTutorials" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Tutorial3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SparkTutorials" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="SparkTutorials" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -198,11 +244,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559485931147" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560009827118" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/TreeStructure" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="SparkTutorials.Tutorial3" />
       <recent name="SparkTutorials.Tutorial2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -315,17 +362,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial2/Tutorial2Main.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial1/Tutorial1Main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        <state relative-caret-position="-1180">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
           <folding>
             <element signature="e#34#115#0" expanded="true" />
           </folding>
@@ -334,15 +374,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial2/CustomUDF.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        <state relative-caret-position="238">
+          <caret line="14" column="6" selection-start-line="9" selection-start-column="1" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.12/2.4.0/spark-sql_2.12-2.4.0.jar!/org/apache/spark/sql/expressions/UserDefinedAggregateFunction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="122" column="59" selection-start-line="122" selection-start-column="59" selection-end-line="122" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial3/Mean.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="57" column="103" lean-forward="true" selection-start-line="57" selection-start-column="103" selection-end-line="57" selection-end-column="103" />
+          <folding>
+            <element signature="e#34#65#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial2/Tutorial2Main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="161" column="7" lean-forward="true" selection-start-line="161" selection-start-column="7" selection-end-line="161" selection-end-column="7" />
+        <state relative-caret-position="442">
+          <caret line="101" column="75" selection-start-line="101" selection-start-column="69" selection-end-line="101" selection-end-column="75" />
+          <folding>
+            <element signature="e#34#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SparkTutorials/Tutorial3/Tutorial3Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="e#34#93#0" expanded="true" />
           </folding>

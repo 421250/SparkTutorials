@@ -14,6 +14,7 @@ object Tutorial2Main  {
   In this tutorial, we will learn the following:
   1. How to use create UDF (User Defined Function):
     We will illustrate how to define UDF and practise casting of data type.
+    We will also cover how to transform one row to multiple rows after applying UDF.
   2. Further transformation operations: Casting datatypes / Filter Function
   3. Spark Optimization and Explain Plan
    */
