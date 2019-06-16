@@ -27,3 +27,8 @@ In this tutorial, we will learn the following:
  In this tutorial, we will learn the following:
  1. How to create UDAF,
  2. Walk through the abstract methods / classes that is utilized for UDAF
+ 
+#Tutorial 4: Custom Partitioner
+  1. GroupByKey and ReduceByKey incur significant shuffling cost. In this tutorial , we look
+  at how to "group" keys together without incurring significant shuffling cost across executors.
+  2. Using this tutorial, introduce the use of RDD.
